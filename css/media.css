@@ -1,0 +1,370 @@
+@media (max-width: 1370px){
+    .testimonials {
+        background: url(/img/testimonials_bcg.png) no-repeat left top; 
+    }
+}
+
+@media (max-width: 1280px){
+    .about__img {
+        width: 40%;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1180px){ 
+    .footer__wrapper {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .company {
+        border-right: none;
+    }
+
+    .utility {
+        flex-direction: row;
+        align-items: center;
+        justify-self: center;
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .utility__link {
+        padding-left: 15px;
+    }
+
+    .about_us,
+    .testimonials__wrapper,
+    .offer_products__wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 50px; 
+    }
+
+    .label__span {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .farm__header {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .farm__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .welcome__text {
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    .nav_toggle {
+        display: inline-block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: transparent;
+        border: none;
+    }
+    .header__nav__ul {
+        display: none;
+    }
+
+    .hamburger {
+        width: 30px;
+        background-color: transparent;
+    }
+
+    #nav_toggle:checked ~ .header__nav__ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav__ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(37, 37, 37);
+        opacity: .9;
+        padding: 10% 5%;
+        height: 100%;
+        z-index: 100;
+    }
+
+    .header__nav__li a {
+        color: #fff;
+    }
+
+    .header__nav__li:last-child {
+        padding-left: 20px;
+    }
+
+    .header__nav__li {
+        padding: 15px 20px;
+    }
+
+    .offer__text {
+        font-size: 32px;
+        line-height: 42px;
+        width: 75%;
+    }
+}
+
+@media (max-width: 880px){  
+    .footer__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts {
+        align-items: center;
+        justify-self: center;
+    }
+
+    .company {
+        border-left: none;
+        border-top: solid 1px #D5D5D5;
+        border-bottom: solid 1px #D5D5D5;
+        padding: 50px 0;
+    }
+
+    .utility {
+        flex-direction: column;
+    }
+
+    .utility__link, 
+    .contacts__text,
+    .footer__company__text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__company__text {
+        margin-top: 20px;
+    }
+
+    .about_us__wrapper {
+        flex-direction: column;
+    }
+
+    .welcome__block {
+        height: auto;
+        width: auto; 
+        background-color: rgb(233 232 233 / 50%);
+        border-radius: 30px;
+        padding: 90px 20px;
+    }
+
+    .types__wrapper {
+        padding: 50px 0;
+    }
+
+    .footer {
+        margin-bottom: auto;
+    }
+
+    .offer__block {
+        padding-left: 20px;
+        width: calc(48% - 20px);
+    }
+}
+
+@media (max-width: 768px){ 
+    .offer__block {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about__text,
+    .about__feature__text,
+    .testimonial__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .product__link {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product__img {
+        width: 50%;
+    }
+
+    .products__wrapper,
+    .offer__products__block {
+        grid-template-columns: repeat(auto-fill, minmax(236px, 332px));
+        justify-content: center;
+    }
+
+    .prices__wrapper {
+        flex-direction: column;
+    }
+    
+    .product__stars {
+        margin-left: 0;
+    }
+
+    .explore__button__link {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 10px 10px 10px 15px;
+    }
+
+    .explore__button__arrow {
+        margin-left: 10px;
+    }
+
+    .about_us .explore__button__link {
+        margin-top: auto;
+    }
+
+    .advantage {
+        width: 130px;
+        height: 130px;
+    }
+
+    .content__farm {
+        justify-content: center;
+    }
+
+    .farm__wrapper {
+        width: 70%;
+        border-radius: 30px;
+    }
+
+    .farm {
+        background-size: cover;
+    }
+
+    .food_type__block {
+        height: 230px;
+    }
+}
+
+@media (max-width: 650px){ 
+    .offer__text-block {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .offer_products__h2 {
+        margin: 15px 0;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .subscribe__email__block {
+        flex-direction: column;
+    }
+
+    .subscribe__wrapper {
+        justify-content: center;
+    }
+
+    .email__input {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 560px){ 
+    .header__wrapper {
+        flex-direction: column;
+    }
+
+    .header__cart__img__wrapper {
+        justify-content: center;
+        padding: 8px 2px;
+    }
+
+    .header__cart__img {
+        width: 60%;
+    }
+
+    .offers__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer__block {
+        padding: 50px;
+        margin: 15px;
+        width: 80%;
+    }
+    .offer__text {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 425px) {
+    .welcome__text,
+    .subscribe__text {
+        font-size: 36px;
+        line-height: 50px;  
+    }
+
+    .farm__wrapper {
+        padding: 15px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .subscribe__wrapper {
+        padding: 15px;
+    }
+
+    .subscribe__text {
+        color: var(--dark-green);
+        background-color: rgb(255 255 255 / 50%);
+        border-radius: 30px;
+        padding: 15px;
+    }
+
+    .food_type__link {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px;
+    }
+
+    .types__wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 460px));
+    }
+
+    .about__h2 {
+        width: auto;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .testimonial__text {
+        padding: 0;
+        background-color: rgb(255 255 255 / 50%);
+        border-radius: 30px;
+    }
+
+    .sochial__link {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+    }
+
+    .email__input {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px;
+    }
+}
